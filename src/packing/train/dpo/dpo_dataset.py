@@ -38,9 +38,10 @@ class DPODataBuffer:
 
         pairs = []
 
-        wandb.log(
-            {"dpodata/passed_chats": len(passed_chats), "dpodata/failed_chats": len(failed_chats)}
-        )
+        if cfg.wandb:
+            wandb.log(
+                {"dpodata/passed_chats": len(passed_chats), "dpodata/failed_chats": len(failed_chats)}
+            )
 
         if passed_chats:
             unique_scores = set(passed_scores)

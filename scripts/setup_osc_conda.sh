@@ -83,6 +83,11 @@ pip install vllm
 echo "Step 6: Installing project dependencies..."
 pip install -r installation/docker-amd64-cuda-vllm/requirements.txt
 
+# Step 6b: Ensure NumPy < 2.0 for compatibility
+echo "Step 6b: Ensuring NumPy compatibility..."
+pip install "numpy<2.0"
+
+
 # Step 7: Install the package itself
 echo "Step 7: Installing EvoTune package..."
 pip install -e .

@@ -15,6 +15,7 @@ opencv-python
 peft
 scipy
 elkai
+numpy<2.0
 
 pandas
 scikit-learn

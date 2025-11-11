@@ -33,6 +33,7 @@ conda activate evotune
 # Set environment variables
 export PYTHONPATH=src:$PYTHONPATH
 export CUDA_VISIBLE_DEVICES=0
+export WANDB_API_KEY="faafa38294bc6098fd6475997f551a8de1ade862"
 
 # Create logs directory if it doesn't exist
 mkdir -p logs out/logs
@@ -46,7 +47,34 @@ python src/experiments/main.py \
     seed=0 \
     prefix=osc_bin_test \
     gpu_nums=0 \
-    wandb=0 \
+    wandb=1 \
+    project=evotune-reproducing \
+    entity=hananenmoussa \
     run_or_dev=run
 
+# python src/experiments/main.py \
+#     task=bin \
+#     model=llama32 \
+#     train=dpo \
+#     cluster=osc_ascend \
+#     seed=0 \
+#     prefix=dpo_80rounds \
+#     gpu_nums=0 \
+#     num_cont_rounds=80 \
+#     finetuning_frequency=20 \
+#     one_tuning=0 \
+#     max_loops=5 \
+#     wandb=1 \
+#     project=evotune-bin-packing \
+#     entity=your_wandb_username \
+#     run_or_dev=run
+
+
 echo "Job finished on $(date)"
+
+
+# My workflow: 
+# Request gpu node interactively using: sinteractive -A PAA0201 -p quad -g 1 -t 1:00:00
+# Then: conda activate evotune
+# Then run the command python src/experiments/main.py \ ...
+
