@@ -5575,3 +5575,627 @@ Time taken for one round: 1173 seconds
 2025-11-28 21:29:42,020 - INFO - Island id 0
 [INFO]
 2025-11-28 21:29:42,020 - INFO -
+
+
+[INFO] Time taken for LLM generation: 8 seconds
+
+
+2025-11-28 21:29:51,012 - INFO - Time taken for LLM generation: 8 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:29:51,014 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 8
+2025-11-28 21:29:51,017 - INFO - LLM generation time: 8
+[INFO] Producer: Generated 8 functions for prompt 1436
+2025-11-28 21:29:51,017 - INFO - Producer: Generated 8 functions for prompt 1436
+[INFO] Producer: Generated 0 failed functions for prompt 1436
+2025-11-28 21:29:51,018 - INFO - Producer: Generated 0 failed functions for prompt 1436
+[INFO]
+2025-11-28 21:29:51,020 - INFO -
+
+
+[INFO] Prompt scores: [-27.8564, -16.7157]
+
+
+2025-11-28 21:29:51,020 - INFO - Prompt scores: [-27.8564, -16.7157]
+[INFO] Island id 1
+2025-11-28 21:29:51,020 - INFO - Island id 1
+[INFO]
+2025-11-28 21:29:51,021 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:30:02,542 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:02,544 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:30:02,546 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 1437
+2025-11-28 21:30:02,547 - INFO - Producer: Generated 8 functions for prompt 1437
+[INFO] Producer: Generated 0 failed functions for prompt 1437
+2025-11-28 21:30:02,548 - INFO - Producer: Generated 0 failed functions for prompt 1437
+[INFO]
+2025-11-28 21:30:02,549 - INFO -
+
+
+[INFO] Prompt scores: [-119.33, -85.4384]
+
+
+2025-11-28 21:30:02,550 - INFO - Prompt scores: [-119.33, -85.4384]
+[INFO] Island id 3
+2025-11-28 21:30:02,550 - INFO - Island id 3
+[INFO]
+2025-11-28 21:30:02,550 - INFO -
+
+
+[INFO] Time taken for LLM generation: 12 seconds
+
+
+2025-11-28 21:30:14,964 - INFO - Time taken for LLM generation: 12 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:14,966 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 12
+2025-11-28 21:30:14,968 - INFO - LLM generation time: 12
+[INFO] Producer: Generated 8 functions for prompt 1438
+2025-11-28 21:30:14,969 - INFO - Producer: Generated 8 functions for prompt 1438
+[INFO] Producer: Generated 0 failed functions for prompt 1438
+2025-11-28 21:30:14,970 - INFO - Producer: Generated 0 failed functions for prompt 1438
+[INFO]
+2025-11-28 21:30:14,971 - INFO -
+
+
+[INFO] Prompt scores: [-61.8438, -38.325]
+
+
+2025-11-28 21:30:14,971 - INFO - Prompt scores: [-61.8438, -38.325]
+[INFO] Island id 5
+2025-11-28 21:30:14,972 - INFO - Island id 5
+[INFO]
+2025-11-28 21:30:14,972 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:30:25,379 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:25,381 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:30:25,383 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 1439
+2025-11-28 21:30:25,384 - INFO - Producer: Generated 8 functions for prompt 1439
+[INFO] Producer: Generated 0 failed functions for prompt 1439
+2025-11-28 21:30:25,385 - INFO - Producer: Generated 0 failed functions for prompt 1439
+[INFO]
+2025-11-28 21:30:25,386 - INFO -
+
+
+[INFO] Prompt scores: [-57.9636, -39.5905]
+
+
+2025-11-28 21:30:25,387 - INFO - Prompt scores: [-57.9636, -39.5905]
+[INFO] Island id 3
+2025-11-28 21:30:25,387 - INFO - Island id 3
+[INFO]
+2025-11-28 21:30:25,388 - INFO -
+
+
+[INFO] Time taken for LLM generation: 9 seconds
+
+
+2025-11-28 21:30:35,093 - INFO - Time taken for LLM generation: 9 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:35,095 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 9
+2025-11-28 21:30:35,097 - INFO - LLM generation time: 9
+[INFO] Producer: Generated 8 functions for prompt 1440
+2025-11-28 21:30:35,098 - INFO - Producer: Generated 8 functions for prompt 1440
+[INFO] Producer: Generated 0 failed functions for prompt 1440
+2025-11-28 21:30:35,102 - INFO - Producer: Generated 0 failed functions for prompt 1440
+[INFO]
+2025-11-28 21:30:35,103 - INFO -
+
+
+[INFO] Prompt scores: [-146.8944, -146.7438]
+
+
+2025-11-28 21:30:35,104 - INFO - Prompt scores: [-146.8944, -146.7438]
+[INFO] Island id 4
+2025-11-28 21:30:35,104 - INFO - Island id 4
+[INFO]
+2025-11-28 21:30:35,105 - INFO -
+
+
+[INFO] Time taken for LLM generation: 12 seconds
+
+
+2025-11-28 21:30:48,050 - INFO - Time taken for LLM generation: 12 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:48,052 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 12
+2025-11-28 21:30:48,055 - INFO - LLM generation time: 12
+[INFO] Producer: Generated 8 functions for prompt 1441
+2025-11-28 21:30:48,055 - INFO - Producer: Generated 8 functions for prompt 1441
+[INFO] Producer: Generated 0 failed functions for prompt 1441
+2025-11-28 21:30:48,056 - INFO - Producer: Generated 0 failed functions for prompt 1441
+[INFO]
+2025-11-28 21:30:48,058 - INFO -
+
+
+[INFO] Prompt scores: [-71.0433, -19.9604]
+
+
+2025-11-28 21:30:48,058 - INFO - Prompt scores: [-71.0433, -19.9604]
+[INFO] Island id 0
+2025-11-28 21:30:48,059 - INFO - Island id 0
+[INFO]
+2025-11-28 21:30:48,059 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:30:58,773 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:58,775 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:30:58,778 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 1442
+2025-11-28 21:30:58,778 - INFO - Producer: Generated 8 functions for prompt 1442
+[INFO] Producer: Generated 0 failed functions for prompt 1442
+2025-11-28 21:30:58,779 - INFO - Producer: Generated 0 failed functions for prompt 1442
+[INFO]
+2025-11-28 21:30:58,780 - INFO -
+
+
+[INFO] Prompt scores: [-45.1133, -18.7968]
+
+
+2025-11-28 21:30:58,780 - INFO - Prompt scores: [-45.1133, -18.7968]
+[INFO] Island id 1
+2025-11-28 21:30:58,781 - INFO - Island id 1
+[INFO]
+2025-11-28 21:30:58,781 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:31:09,112 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:31:09,114 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:31:09,116 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 1443
+2025-11-28 21:31:09,117 - INFO - Producer: Generated 8 functions for prompt 1443
+[INFO] Producer: Generated 0 failed functions for prompt 1443
+2025-11-28 21:31:09,117 - INFO - Producer: Generated 0 failed functions for prompt 1443
+[INFO]
+2025-11-28 21:31:09,119 - INFO -
+
+
+[INFO] Prompt scores: [-36.6526, -16.7157]
+
+
+2025-11-28 21:31:09,119 - INFO - Prompt scores: [-36.6526, -16.7157]
+[INFO] Island id 1
+2025-11-28 21:31:09,120 - INFO - Island id 1
+[INFO]
+2025-11-28 21:31:09,120 - INFO -
+
+
+[INFO] Time taken for LLM generation: 12 seconds
+
+
+2025-11-28 21:31:21,946 - INFO - Time taken for LLM generation: 12 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:31:21,950 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 12
+2025-11-28 21:31:21,953 - INFO - LLM generation time: 12
+[INFO] Producer: Generated 8 functions for prompt 1444
+2025-11-28 21:31:21,953 - INFO - Producer: Generated 8 functions for prompt 1444
+[INFO] Producer: Generated 0 failed functions for prompt 1444
+2025-11-28 21:31:21,955 - INFO - Producer: Generated 0 failed functions for prompt 1444
+[INFO]
+2025-11-28 21:31:21,956 - INFO -
+
+
+[INFO] Prompt scores: [-117.6668, -40.1458]
+
+
+2025-11-28 21:31:21,957 - INFO - Prompt scores: [-117.6668, -40.1458]
+[INFO] Island id 0
+2025-11-28 21:31:21,957 - INFO - Island id 0
+[INFO]
+2025-11-28 21:31:21,957 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:31:32,766 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:31:32,768 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:31:32,770 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 1445
+2025-11-28 21:31:32,770 - INFO - Producer: Generated 8 functions for prompt 1445
+[INFO] Producer: Generated 0 failed functions for prompt 1445
+2025-11-28 21:31:32,772 - INFO - Producer: Generated 0 failed functions for prompt 1445
+[INFO]
+2025-11-28 21:31:32,773 - INFO -
+
+
+[INFO] Prompt scores: [-55.7396, -41.1143]
+
+
+2025-11-28 21:31:32,774 - INFO - Prompt scores: [-55.7396, -41.1143]
+[INFO] Island id 5
+2025-11-28 21:31:32,774 - INFO - Island id 5
+[INFO]
+2025-11-28 21:31:32,774 - INFO -
+
+
+[INFO] Time taken for LLM generation: 9 seconds
+
+
+2025-11-28 21:31:42,556 - INFO - Time taken for LLM generation: 9 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:31:42,558 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 9
+2025-11-28 21:31:42,561 - INFO - LLM generation time: 9
+[INFO] Producer: Generated 8 functions for prompt 1446
+2025-11-28 21:31:42,561 - INFO - Producer: Generated 8 functions for prompt 1446
+[INFO] Producer: Generated 0 failed functions for prompt 1446
+2025-11-28 21:31:42,562 - INFO - Producer: Generated 0 failed functions for prompt 1446
+[INFO]
+2025-11-28 21:31:42,564 - INFO -
+
+
+[INFO] Prompt scores: [-71.8811, -21.0409]
+
+
+2025-11-28 21:31:42,564 - INFO - Prompt scores: [-71.8811, -21.0409]
+[INFO] Island id 2
+2025-11-28 21:31:42,565 - INFO - Island id 2
+[INFO]
+2025-11-28 21:31:42,565 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:31:53,761 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:31:53,762 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:31:53,765 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 1447
+2025-11-28 21:31:53,765 - INFO - Producer: Generated 8 functions for prompt 1447
+[INFO] Producer: Generated 0 failed functions for prompt 1447
+2025-11-28 21:31:53,766 - INFO - Producer: Generated 0 failed functions for prompt 1447
+[INFO]
+2025-11-28 21:31:53,768 - INFO -
+
+
+[INFO] Prompt scores: [-85.4384, -33.589]
+
+
+2025-11-28 21:31:53,768 - INFO - Prompt scores: [-85.4384, -33.589]
+[INFO] Island id 3
+2025-11-28 21:31:53,768 - INFO - Island id 3
+[INFO]
+2025-11-28 21:31:53,769 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:32:05,154 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:05,156 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:32:05,158 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 1448
+2025-11-28 21:32:05,159 - INFO - Producer: Generated 8 functions for prompt 1448
+[INFO] Producer: Generated 0 failed functions for prompt 1448
+2025-11-28 21:32:05,160 - INFO - Producer: Generated 0 failed functions for prompt 1448
+[INFO]
+2025-11-28 21:32:05,162 - INFO -
+
+
+[INFO] Prompt scores: [-39.5905, -33.589]
+
+
+2025-11-28 21:32:05,176 - INFO - Prompt scores: [-39.5905, -33.589]
+[INFO] Island id 3
+2025-11-28 21:32:05,177 - INFO - Island id 3
+[INFO]
+2025-11-28 21:32:05,177 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:32:15,571 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:15,573 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:32:15,575 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 1449
+2025-11-28 21:32:15,575 - INFO - Producer: Generated 8 functions for prompt 1449
+[INFO] Producer: Generated 0 failed functions for prompt 1449
+2025-11-28 21:32:15,576 - INFO - Producer: Generated 0 failed functions for prompt 1449
+[INFO]
+2025-11-28 21:32:15,578 - INFO -
+
+
+[INFO] Prompt scores: [-39.6497, -38.325]
+
+
+2025-11-28 21:32:15,578 - INFO - Prompt scores: [-39.6497, -38.325]
+[INFO] Island id 5
+2025-11-28 21:32:15,578 - INFO - Island id 5
+[INFO]
+2025-11-28 21:32:15,579 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:32:27,203 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:27,205 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:32:27,207 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 1450
+2025-11-28 21:32:27,208 - INFO - Producer: Generated 8 functions for prompt 1450
+[INFO] Producer: Generated 0 failed functions for prompt 1450
+2025-11-28 21:32:27,209 - INFO - Producer: Generated 0 failed functions for prompt 1450
+[INFO]
+2025-11-28 21:32:27,210 - INFO -
+
+
+[INFO] Prompt scores: [-47.7287, -37.8239]
+
+
+2025-11-28 21:32:27,211 - INFO - Prompt scores: [-47.7287, -37.8239]
+[INFO] Island id 1
+2025-11-28 21:32:27,211 - INFO - Island id 1
+[INFO]
+2025-11-28 21:32:27,211 - INFO -
+
+
+[INFO] Time taken for LLM generation: 12 seconds
+
+
+2025-11-28 21:32:39,321 - INFO - Time taken for LLM generation: 12 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:39,323 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 12
+2025-11-28 21:32:39,325 - INFO - LLM generation time: 12
+[INFO] Producer: Generated 8 functions for prompt 1451
+2025-11-28 21:32:39,325 - INFO - Producer: Generated 8 functions for prompt 1451
+[INFO] Producer: Generated 0 failed functions for prompt 1451
+2025-11-28 21:32:39,326 - INFO - Producer: Generated 0 failed functions for prompt 1451
+[INFO]
+2025-11-28 21:32:39,328 - INFO -
+
+
+[INFO] Prompt scores: [-31.0243, -27.4774]
+
+
+2025-11-28 21:32:39,328 - INFO - Prompt scores: [-31.0243, -27.4774]
+[INFO] Island id 2
+2025-11-28 21:32:39,329 - INFO - Island id 2
+[INFO]
+2025-11-28 21:32:39,329 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:32:49,713 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:49,715 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:32:49,717 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 1452
+2025-11-28 21:32:49,717 - INFO - Producer: Generated 8 functions for prompt 1452
+[INFO] Producer: Generated 0 failed functions for prompt 1452
+2025-11-28 21:32:49,718 - INFO - Producer: Generated 0 failed functions for prompt 1452
+[INFO]
+2025-11-28 21:32:49,719 - INFO -
+
+
+[INFO] Prompt scores: [-35.7122, -27.7929]
+
+
+2025-11-28 21:32:49,723 - INFO - Prompt scores: [-35.7122, -27.7929]
+[INFO] Island id 1
+2025-11-28 21:32:49,723 - INFO - Island id 1
+[INFO]
+2025-11-28 21:32:49,724 - INFO -
+
+
+[INFO] Time taken for LLM generation: 9 seconds
+
+
+2025-11-28 21:32:59,716 - INFO - Time taken for LLM generation: 9 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:59,718 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 9
+2025-11-28 21:32:59,720 - INFO - LLM generation time: 9
+[INFO] Producer: Generated 8 functions for prompt 1453
+2025-11-28 21:32:59,721 - INFO - Producer: Generated 8 functions for prompt 1453
+[INFO] Producer: Generated 0 failed functions for prompt 1453
+2025-11-28 21:32:59,722 - INFO - Producer: Generated 0 failed functions for prompt 1453
+[INFO]
+2025-11-28 21:32:59,723 - INFO -
+
+
+[INFO] Prompt scores: [-146.7668, -137.9531]
+
+
+2025-11-28 21:32:59,723 - INFO - Prompt scores: [-146.7668, -137.9531]
+[INFO] Island id 4
+2025-11-28 21:32:59,724 - INFO - Island id 4
+[INFO]
+2025-11-28 21:32:59,724 - INFO -
+
+
+[INFO] Time taken for LLM generation: 13 seconds
+
+
+2025-11-28 21:33:12,823 - INFO - Time taken for LLM generation: 13 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:12,827 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 13
+2025-11-28 21:33:12,829 - INFO - LLM generation time: 13
+[INFO] Producer: Generated 8 functions for prompt 1454
+2025-11-28 21:33:12,830 - INFO - Producer: Generated 8 functions for prompt 1454
+[INFO] Producer: Generated 0 failed functions for prompt 1454
+2025-11-28 21:33:12,831 - INFO - Producer: Generated 0 failed functions for prompt 1454
+[INFO]
+2025-11-28 21:33:12,832 - INFO -
+
+
+[INFO] Prompt scores: [-69.4692, -5.9163]
+
+
+2025-11-28 21:33:12,833 - INFO - Prompt scores: [-69.4692, -5.9163]
+[INFO] Island id 2
+2025-11-28 21:33:12,833 - INFO - Island id 2
+[INFO]
+2025-11-28 21:33:12,833 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:33:24,608 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:24,610 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:33:24,612 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 1455
+2025-11-28 21:33:24,613 - INFO - Producer: Generated 8 functions for prompt 1455
+[INFO] Producer: Generated 0 failed functions for prompt 1455
+2025-11-28 21:33:24,613 - INFO - Producer: Generated 0 failed functions for prompt 1455
+[INFO]
+2025-11-28 21:33:24,615 - INFO -
+
+
+[INFO] Prompt scores: [-105.0397, -39.6497]
+
+
+2025-11-28 21:33:24,615 - INFO - Prompt scores: [-105.0397, -39.6497]
+[INFO] Island id 5
+2025-11-28 21:33:24,616 - INFO - Island id 5
+[INFO]
+2025-11-28 21:33:24,616 - INFO -
+
+
+[INFO] Time taken for LLM generation: 7 seconds
+
+
+2025-11-28 21:33:31,950 - INFO - Time taken for LLM generation: 7 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:31,954 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 7
+2025-11-28 21:33:31,956 - INFO - LLM generation time: 7
+[INFO] Producer: Generated 8 functions for prompt 1456
+2025-11-28 21:33:31,957 - INFO - Producer: Generated 8 functions for prompt 1456
+[INFO] Producer: Generated 0 failed functions for prompt 1456
+2025-11-28 21:33:31,957 - INFO - Producer: Generated 0 failed functions for prompt 1456
+[INFO]
+2025-11-28 21:33:31,958 - INFO -
+
+
+[INFO] Prompt scores: [-26.9747, -25.6135]
+
+
+2025-11-28 21:33:31,959 - INFO - Prompt scores: [-26.9747, -25.6135]
+[INFO] Island id 1
+2025-11-28 21:33:31,959 - INFO - Island id 1
+[INFO]
+2025-11-28 21:33:31,959 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:33:42,882 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:42,885 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:33:42,888 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 1457
+2025-11-28 21:33:42,888 - INFO - Producer: Generated 8 functions for prompt 1457
+[INFO] Producer: Generated 0 failed functions for prompt 1457
+2025-11-28 21:33:42,889 - INFO - Producer: Generated 0 failed functions for prompt 1457
+[INFO]
+2025-11-28 21:33:42,891 - INFO -
+
+
+[INFO] Prompt scores: [-26.7288, -23.6128]
+
+
+2025-11-28 21:33:42,891 - INFO - Prompt scores: [-26.7288, -23.6128]
+[INFO] Island id 0
+2025-11-28 21:33:42,891 - INFO - Island id 0
+[INFO]
+2025-11-28 21:33:42,892 - INFO -
+
+
+[INFO] Time taken for LLM generation: 9 seconds
+
+
+2025-11-28 21:33:52,057 - INFO - Time taken for LLM generation: 9 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:52,061 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 9
+2025-11-28 21:33:52,063 - INFO - LLM generation time: 9
+[INFO] Producer: Generated 8 functions for prompt 1458
+2025-11-28 21:33:52,063 - INFO - Producer: Generated 8 functions for prompt 1458
+[INFO] Producer: Generated 0 failed functions for prompt 1458
+2025-11-28 21:33:52,064 - INFO - Producer: Generated 0 failed functions for prompt 1458
+[INFO]
+2025-11-28 21:33:52,066 - INFO -
+
+
+[INFO] Prompt scores: [-146.8935, -146.7648]
+
+
+2025-11-28 21:33:52,067 - INFO - Prompt scores: [-146.8935, -146.7648]
+[INFO] Island id 4
+2025-11-28 21:33:52,067 - INFO - Island id 4
+[INFO]
+2025-11-28 21:33:52,067 - INFO -
+
+
+[INFO] Time taken for LLM generation: 13 seconds
+
+
+2025-11-28 21:34:05,395 - INFO - Time taken for LLM generation: 13 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:34:05,397 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 13
+2025-11-28 21:34:05,399 - INFO - LLM generation time: 13
+[INFO] Producer: Generated 8 functions for prompt 1459
+2025-11-28 21:34:05,400 - INFO - Producer: Generated 8 functions for prompt 1459
+[INFO] Producer: Generated 0 failed functions for prompt 1459
+2025-11-28 21:34:05,401 - INFO - Producer: Generated 0 failed functions for prompt 1459
+[INFO]
+2025-11-28 21:34:05,402 - INFO -
+
+
+[INFO] Prompt scores: [-27.7929, -18.7968]
+
+
+2025-11-28 21:34:05,402 - INFO - Prompt scores: [-27.7929, -18.7968]
+[INFO] Island id 1
+2025-11-28 21:34:05,403 - INFO - Island id 1
+[INFO]
+2025-11-28 21:34:05,403 - INFO -

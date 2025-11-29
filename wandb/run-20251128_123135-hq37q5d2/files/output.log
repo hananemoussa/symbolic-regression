@@ -95507,3 +95507,1405 @@ Time taken for one round: 1380 seconds
 2025-11-28 21:29:44,137 - INFO - Island id 0
 [INFO]
 2025-11-28 21:29:44,137 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:29:54,218 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:29:54,222 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:29:54,226 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 2693
+2025-11-28 21:29:54,227 - INFO - Producer: Generated 8 functions for prompt 2693
+[INFO] Producer: Generated 0 failed functions for prompt 2693
+2025-11-28 21:29:54,229 - INFO - Producer: Generated 0 failed functions for prompt 2693
+[INFO]
+2025-11-28 21:29:54,231 - INFO -
+
+
+[INFO] Prompt scores: [-40.1012, -13.279]
+
+
+2025-11-28 21:29:54,232 - INFO - Prompt scores: [-40.1012, -13.279]
+[INFO] Island id 4
+2025-11-28 21:29:54,232 - INFO - Island id 4
+[INFO]
+2025-11-28 21:29:54,233 - INFO -
+
+
+[INFO] Time taken for LLM generation: 13 seconds
+
+
+2025-11-28 21:30:07,449 - INFO - Time taken for LLM generation: 13 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:07,452 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 13
+2025-11-28 21:30:07,456 - INFO - LLM generation time: 13
+[INFO] Producer: Generated 8 functions for prompt 2694
+2025-11-28 21:30:07,457 - INFO - Producer: Generated 8 functions for prompt 2694
+[INFO] Producer: Generated 0 failed functions for prompt 2694
+2025-11-28 21:30:07,458 - INFO - Producer: Generated 0 failed functions for prompt 2694
+[INFO]
+2025-11-28 21:30:07,461 - INFO -
+
+
+[INFO] Prompt scores: [-24.6075, -19.8819]
+
+
+2025-11-28 21:30:07,461 - INFO - Prompt scores: [-24.6075, -19.8819]
+[INFO] Island id 5
+2025-11-28 21:30:07,462 - INFO - Island id 5
+[INFO]
+2025-11-28 21:30:07,463 - INFO -
+
+
+[INFO] Time taken for LLM generation: 12 seconds
+
+
+2025-11-28 21:30:19,845 - INFO - Time taken for LLM generation: 12 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:19,848 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 12
+2025-11-28 21:30:19,852 - INFO - LLM generation time: 12
+[INFO] Producer: Generated 8 functions for prompt 2695
+2025-11-28 21:30:19,853 - INFO - Producer: Generated 8 functions for prompt 2695
+[INFO] Producer: Generated 0 failed functions for prompt 2695
+2025-11-28 21:30:19,854 - INFO - Producer: Generated 0 failed functions for prompt 2695
+[INFO]
+2025-11-28 21:30:19,856 - INFO -
+
+
+[INFO] Prompt scores: [-140.7315, -68.8246]
+
+
+2025-11-28 21:30:19,857 - INFO - Prompt scores: [-140.7315, -68.8246]
+[INFO] Island id 3
+2025-11-28 21:30:19,858 - INFO - Island id 3
+[INFO]
+2025-11-28 21:30:19,858 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:30:31,535 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:31,537 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:30:31,541 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 2696
+2025-11-28 21:30:31,542 - INFO - Producer: Generated 8 functions for prompt 2696
+[INFO] Producer: Generated 0 failed functions for prompt 2696
+2025-11-28 21:30:31,544 - INFO - Producer: Generated 0 failed functions for prompt 2696
+[INFO]
+2025-11-28 21:30:31,545 - INFO -
+
+
+[INFO] Prompt scores: [-48.9013, -36.0733]
+
+
+2025-11-28 21:30:31,546 - INFO - Prompt scores: [-48.9013, -36.0733]
+[INFO] Island id 0
+2025-11-28 21:30:31,547 - INFO - Island id 0
+[INFO]
+2025-11-28 21:30:31,547 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:30:41,596 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:41,599 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:30:41,602 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 2697
+2025-11-28 21:30:41,603 - INFO - Producer: Generated 8 functions for prompt 2697
+[INFO] Producer: Generated 0 failed functions for prompt 2697
+2025-11-28 21:30:41,605 - INFO - Producer: Generated 0 failed functions for prompt 2697
+[INFO]
+2025-11-28 21:30:41,607 - INFO -
+
+
+[INFO] Prompt scores: [-29.8668, -7.8595]
+
+
+2025-11-28 21:30:41,607 - INFO - Prompt scores: [-29.8668, -7.8595]
+[INFO] Island id 0
+2025-11-28 21:30:41,608 - INFO - Island id 0
+[INFO]
+2025-11-28 21:30:41,608 - INFO -
+
+
+[INFO] Time taken for LLM generation: 9 seconds
+
+
+2025-11-28 21:30:51,264 - INFO - Time taken for LLM generation: 9 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:30:51,266 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 9
+2025-11-28 21:30:51,270 - INFO - LLM generation time: 9
+[INFO] Producer: Generated 8 functions for prompt 2698
+2025-11-28 21:30:51,271 - INFO - Producer: Generated 8 functions for prompt 2698
+[INFO] Producer: Generated 0 failed functions for prompt 2698
+2025-11-28 21:30:51,272 - INFO - Producer: Generated 0 failed functions for prompt 2698
+[INFO]
+2025-11-28 21:30:51,275 - INFO -
+
+
+[INFO] Prompt scores: [-8.1559, -4.2238]
+
+
+2025-11-28 21:30:51,275 - INFO - Prompt scores: [-8.1559, -4.2238]
+[INFO] Island id 2
+2025-11-28 21:30:51,276 - INFO - Island id 2
+[INFO]
+2025-11-28 21:30:51,277 - INFO -
+
+
+[INFO] Time taken for LLM generation: 19 seconds
+
+
+2025-11-28 21:31:10,439 - INFO - Time taken for LLM generation: 19 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:31:10,443 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 19
+2025-11-28 21:31:10,447 - INFO - LLM generation time: 19
+[INFO] Producer: Generated 8 functions for prompt 2699
+2025-11-28 21:31:10,448 - INFO - Producer: Generated 8 functions for prompt 2699
+[INFO] Producer: Generated 0 failed functions for prompt 2699
+2025-11-28 21:31:10,449 - INFO - Producer: Generated 0 failed functions for prompt 2699
+[INFO]
+2025-11-28 21:31:10,451 - INFO -
+
+
+[INFO] Prompt scores: [-122.0977, -68.8246]
+
+
+2025-11-28 21:31:10,451 - INFO - Prompt scores: [-122.0977, -68.8246]
+[INFO] Island id 3
+2025-11-28 21:31:10,452 - INFO - Island id 3
+[INFO]
+2025-11-28 21:31:10,452 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:31:21,389 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:31:21,393 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:31:21,397 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 2700
+2025-11-28 21:31:21,398 - INFO - Producer: Generated 8 functions for prompt 2700
+[INFO] Producer: Generated 0 failed functions for prompt 2700
+2025-11-28 21:31:21,399 - INFO - Producer: Generated 0 failed functions for prompt 2700
+[INFO] Producer: Sent stopping signals to consumers
+2025-11-28 21:31:21,400 - INFO - Producer: Sent stopping signals to consumers
+[INFO] WAITING FOR CONSUMERS TO FINISH
+2025-11-28 21:31:21,402 - INFO - WAITING FOR CONSUMERS TO FINISH
+[INFO] Waiting for consumer process 3129030, worker id 0 to finish
+2025-11-28 21:31:21,404 - INFO - Waiting for consumer process 3129030, worker id 0 to finish
+[INFO] Queue size: 9, timeout time: 90
+2025-11-28 21:31:21,404 - INFO - Queue size: 9, timeout time: 90
+[INFO] Consumer process 3129030 exited
+2025-11-28 21:31:22,998 - INFO - Consumer process 3129030 exited
+[INFO] Waiting for consumer process 3129034, worker id 1 to finish
+2025-11-28 21:31:23,001 - INFO - Waiting for consumer process 3129034, worker id 1 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,004 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129034 exited
+2025-11-28 21:31:23,006 - INFO - Consumer process 3129034 exited
+[INFO] Waiting for consumer process 3129038, worker id 2 to finish
+2025-11-28 21:31:23,008 - INFO - Waiting for consumer process 3129038, worker id 2 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,011 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129038 exited
+2025-11-28 21:31:23,303 - INFO - Consumer process 3129038 exited
+[INFO] Waiting for consumer process 3129044, worker id 3 to finish
+2025-11-28 21:31:23,303 - INFO - Waiting for consumer process 3129044, worker id 3 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,304 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129044 exited
+2025-11-28 21:31:23,305 - INFO - Consumer process 3129044 exited
+[INFO] Waiting for consumer process 3129048, worker id 4 to finish
+2025-11-28 21:31:23,305 - INFO - Waiting for consumer process 3129048, worker id 4 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,305 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129048 exited
+2025-11-28 21:31:23,306 - INFO - Consumer process 3129048 exited
+[INFO] Waiting for consumer process 3129052, worker id 5 to finish
+2025-11-28 21:31:23,306 - INFO - Waiting for consumer process 3129052, worker id 5 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,307 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129052 exited
+2025-11-28 21:31:23,307 - INFO - Consumer process 3129052 exited
+[INFO] Waiting for consumer process 3129056, worker id 6 to finish
+2025-11-28 21:31:23,308 - INFO - Waiting for consumer process 3129056, worker id 6 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,308 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129056 exited
+2025-11-28 21:31:23,308 - INFO - Consumer process 3129056 exited
+[INFO] Waiting for consumer process 3129060, worker id 7 to finish
+2025-11-28 21:31:23,309 - INFO - Waiting for consumer process 3129060, worker id 7 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,309 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129060 exited
+2025-11-28 21:31:23,310 - INFO - Consumer process 3129060 exited
+[INFO] Waiting for consumer process 3129064, worker id 8 to finish
+2025-11-28 21:31:23,310 - INFO - Waiting for consumer process 3129064, worker id 8 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,311 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129064 exited
+2025-11-28 21:31:23,311 - INFO - Consumer process 3129064 exited
+[INFO] Waiting for consumer process 3129068, worker id 9 to finish
+2025-11-28 21:31:23,311 - INFO - Waiting for consumer process 3129068, worker id 9 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,312 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129068 exited
+2025-11-28 21:31:23,312 - INFO - Consumer process 3129068 exited
+[INFO] Waiting for consumer process 3129072, worker id 10 to finish
+2025-11-28 21:31:23,313 - INFO - Waiting for consumer process 3129072, worker id 10 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,313 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129072 exited
+2025-11-28 21:31:23,314 - INFO - Consumer process 3129072 exited
+[INFO] Waiting for consumer process 3129076, worker id 11 to finish
+2025-11-28 21:31:23,314 - INFO - Waiting for consumer process 3129076, worker id 11 to finish
+[INFO] Queue size: 1, timeout time: 60
+2025-11-28 21:31:23,314 - INFO - Queue size: 1, timeout time: 60
+[INFO] Consumer process 3129076 exited
+2025-11-28 21:32:23,375 - INFO - Consumer process 3129076 exited
+[INFO] ###################
+2025-11-28 21:32:23,536 - INFO - ###################
+[INFO] Num of passed functions: 60
+2025-11-28 21:32:23,537 - INFO - Num of passed functions: 60
+[INFO] Num of failed functions: 739
+2025-11-28 21:32:23,537 - INFO - Num of failed functions: 739
+[INFO] ###################
+2025-11-28 21:32:23,537 - INFO - ###################
+[INFO] Finished with continuous sampling and evaluation for 100 rounds
+2025-11-28 21:32:23,612 - INFO - Finished with continuous sampling and evaluation for 100 rounds
+[INFO] ----------
+2025-11-28 21:32:23,615 - INFO - ----------
+[INFO] REGISTERING PROGRAMS
+2025-11-28 21:32:23,615 - INFO - REGISTERING PROGRAMS
+
+Number of passing functions to register: 60
+
+
+Number of failed functions: 739
+
+Best score of island 3 increased to -21.9642
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving a program to a file...
+Saving the programs from program bank to a file...
+[INFO] Saved to logs directory
+2025-11-28 21:32:25,225 - INFO - Saved to logs directory
+[INFO]
+
+Time taken for one round: 1462 seconds
+2025-11-28 21:32:25,228 - INFO -
+
+Time taken for one round: 1462 seconds
+
+
+[INFO]
+
+
+2025-11-28 21:32:25,233 - INFO -
+
+
+[INFO] ROUND 2600 FINISHED
+
+
+2025-11-28 21:32:25,234 - INFO - ROUND 2600 FINISHED
+[INFO] STARTING ROUND NUM: 2700
+2025-11-28 21:32:25,234 - INFO - STARTING ROUND NUM: 2700
+[INFO] Prompt num: 2700
+2025-11-28 21:32:25,234 - INFO - Prompt num: 2700
+[INFO] Total functions generated so far: 21600
+2025-11-28 21:32:25,235 - INFO - Total functions generated so far: 21600
+[INFO] Total functions evaluated so far: 21598
+2025-11-28 21:32:25,235 - INFO - Total functions evaluated so far: 21598
+[INFO] Number of functions in the programbank: 1473
+2025-11-28 21:32:25,235 - INFO - Number of functions in the programbank: 1473
+[INFO] Number of datatpoints in DPO data: 6534
+2025-11-28 21:32:25,236 - INFO - Number of datatpoints in DPO data: 6534
+[INFO] Best overall program score: -1.2191
+2025-11-28 21:32:25,236 - INFO - Best overall program score: -1.2191
+[INFO] Best running_dict score: -1.2191
+2025-11-28 21:32:25,237 - INFO - Best running_dict score: -1.2191
+[INFO] Best running_dict best_true_score_from_score: -1.2191
+2025-11-28 21:32:25,237 - INFO - Best running_dict best_true_score_from_score: -1.2191
+[INFO] VLLM model server is still alive, continuing...
+2025-11-28 21:32:25,238 - INFO - VLLM model server is still alive, continuing...
+[INFO] ----------
+2025-11-28 21:32:25,239 - INFO - ----------
+[INFO] GENERATING PROMPTS
+2025-11-28 21:32:25,239 - INFO - GENERATING PROMPTS
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,240 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,240 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,241 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,241 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,242 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,243 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,243 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,243 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,244 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,245 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,245 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,245 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,246 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,247 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,247 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,247 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,248 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,249 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,249 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,249 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,250 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,251 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,251 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,252 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,252 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,253 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,253 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,253 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,254 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,255 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,255 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,255 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,256 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,257 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,257 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,257 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,258 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,259 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,259 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,259 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,260 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,261 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,261 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,261 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,262 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,263 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,263 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,263 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,264 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,264 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,265 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,265 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,266 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,266 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,267 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,267 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,268 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,268 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,269 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,269 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,270 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,270 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,271 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,271 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,272 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,272 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,273 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,273 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,274 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,274 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,274 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,275 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,276 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,276 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,276 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,277 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,278 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,278 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,278 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,279 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,280 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,280 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,280 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,281 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,282 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,282 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,282 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,283 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,283 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,284 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,284 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,284 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,285 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,286 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,286 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,286 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,287 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,288 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,288 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,288 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,289 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,290 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,290 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,290 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,291 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,292 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,292 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,292 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,293 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,293 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,294 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,294 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,295 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,295 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,296 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,296 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,297 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,297 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,298 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,298 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,299 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,299 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,300 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,300 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,301 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,301 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,302 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,302 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,303 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,303 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,304 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,304 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,305 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,305 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,305 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,306 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,307 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,307 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,307 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,308 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,309 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,309 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,309 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,310 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,311 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,311 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,311 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,312 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,312 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,313 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,313 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,313 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,314 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,315 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,315 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,315 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,317 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,317 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,317 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,318 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,319 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,319 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,319 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,320 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,320 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,321 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,321 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,321 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,322 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,323 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,323 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,323 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,324 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,325 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,325 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,325 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,326 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,327 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,327 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,328 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,329 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,329 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,329 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,330 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,330 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,331 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,331 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,332 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,333 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,333 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,333 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,334 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,334 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,335 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,335 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,336 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,336 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,337 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,337 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,337 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,338 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,339 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,339 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,339 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,340 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,341 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,341 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,341 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,342 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,343 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,343 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,343 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,344 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,345 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,345 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,345 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,346 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,347 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,347 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,347 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,348 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,349 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,349 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,349 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,350 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,351 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,351 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,351 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,355 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,356 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,356 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,357 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,358 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,358 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,359 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,359 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,360 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,360 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,361 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,361 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,362 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,362 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,363 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,363 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,364 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,364 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,364 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,365 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,366 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,366 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,366 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,367 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,368 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,368 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,368 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,369 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,370 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,370 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,370 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,371 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,372 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,372 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,372 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,373 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,374 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,374 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,374 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,375 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,376 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,376 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,376 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,377 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,378 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,378 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,378 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,379 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,380 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,380 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,380 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,381 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,382 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,382 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,382 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,383 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,384 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,384 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,384 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,385 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,386 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,386 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,386 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,387 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,387 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,388 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,388 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,389 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,389 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,390 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,390 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,391 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,391 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,392 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,392 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,392 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,393 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,394 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,394 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,394 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,395 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,396 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,396 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,396 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,397 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,398 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,398 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,398 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,399 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,400 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,400 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,400 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,401 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,402 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,402 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,402 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,403 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,404 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,404 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,404 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,405 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,406 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,406 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,406 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,407 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,407 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,408 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,408 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,409 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,409 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,410 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,410 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,411 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,412 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,412 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,412 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,413 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,414 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,414 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,414 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,415 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,416 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,416 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,416 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,417 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,418 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,418 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,418 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,419 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,420 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,420 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,420 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,421 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,422 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,422 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,422 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,423 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,424 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,424 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,424 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -8.2125
+2025-11-28 21:32:25,425 - INFO - Using the top percentile score: -8.2125
+[INFO] Number of clusters in the island: 464
+2025-11-28 21:32:25,426 - INFO - Number of clusters in the island: 464
+[INFO] Number of clusters in the top percentile: 93
+2025-11-28 21:32:25,426 - INFO - Number of clusters in the top percentile: 93
+[INFO] Number of programs in the top percentile: 94
+2025-11-28 21:32:25,426 - INFO - Number of programs in the top percentile: 94
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,427 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,428 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,428 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,428 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,429 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,430 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,430 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,430 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -48.415
+2025-11-28 21:32:25,431 - INFO - Using the top percentile score: -48.415
+[INFO] Number of clusters in the island: 197
+2025-11-28 21:32:25,432 - INFO - Number of clusters in the island: 197
+[INFO] Number of clusters in the top percentile: 39
+2025-11-28 21:32:25,432 - INFO - Number of clusters in the top percentile: 39
+[INFO] Number of programs in the top percentile: 39
+2025-11-28 21:32:25,432 - INFO - Number of programs in the top percentile: 39
+[INFO] Using the top percentile score: -140.7315
+2025-11-28 21:32:25,433 - INFO - Using the top percentile score: -140.7315
+[INFO] Number of clusters in the island: 146
+2025-11-28 21:32:25,434 - INFO - Number of clusters in the island: 146
+[INFO] Number of clusters in the top percentile: 29
+2025-11-28 21:32:25,434 - INFO - Number of clusters in the top percentile: 29
+[INFO] Number of programs in the top percentile: 29
+2025-11-28 21:32:25,435 - INFO - Number of programs in the top percentile: 29
+[INFO] Using the top percentile score: -60.8536
+2025-11-28 21:32:25,436 - INFO - Using the top percentile score: -60.8536
+[INFO] Number of clusters in the island: 117
+2025-11-28 21:32:25,437 - INFO - Number of clusters in the island: 117
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,437 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,438 - INFO - Number of programs in the top percentile: 23
+[INFO] Using the top percentile score: -106.9981
+2025-11-28 21:32:25,438 - INFO - Using the top percentile score: -106.9981
+[INFO] Number of clusters in the island: 138
+2025-11-28 21:32:25,439 - INFO - Number of clusters in the island: 138
+[INFO] Number of clusters in the top percentile: 27
+2025-11-28 21:32:25,439 - INFO - Number of clusters in the top percentile: 27
+[INFO] Number of programs in the top percentile: 27
+2025-11-28 21:32:25,440 - INFO - Number of programs in the top percentile: 27
+[INFO] Using the top percentile score: -94.5917
+2025-11-28 21:32:25,440 - INFO - Using the top percentile score: -94.5917
+[INFO] Number of clusters in the island: 116
+2025-11-28 21:32:25,441 - INFO - Number of clusters in the island: 116
+[INFO] Number of clusters in the top percentile: 23
+2025-11-28 21:32:25,441 - INFO - Number of clusters in the top percentile: 23
+[INFO] Number of programs in the top percentile: 23
+2025-11-28 21:32:25,442 - INFO - Number of programs in the top percentile: 23
+[INFO] ----------
+2025-11-28 21:32:25,510 - INFO - ----------
+[INFO] STARTING CONSUMERS
+2025-11-28 21:32:25,512 - INFO - STARTING CONSUMERS
+[INFO] ----------
+2025-11-28 21:32:25,754 - INFO - ----------
+[INFO] STARTING THE PRODUCER
+2025-11-28 21:32:25,756 - INFO - STARTING THE PRODUCER
+[INFO]
+2025-11-28 21:32:25,763 - INFO -
+
+
+[INFO] Prompt scores: [-24.7982, -14.7152]
+
+
+2025-11-28 21:32:25,763 - INFO - Prompt scores: [-24.7982, -14.7152]
+[INFO] Island id 4
+2025-11-28 21:32:25,764 - INFO - Island id 4
+[INFO]
+2025-11-28 21:32:25,764 - INFO -
+
+
+[INFO] Time taken for LLM generation: 14 seconds
+
+
+2025-11-28 21:32:40,258 - INFO - Time taken for LLM generation: 14 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:40,263 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 14
+2025-11-28 21:32:40,267 - INFO - LLM generation time: 14
+[INFO] Producer: Generated 8 functions for prompt 2701
+2025-11-28 21:32:40,268 - INFO - Producer: Generated 8 functions for prompt 2701
+[INFO] Producer: Generated 0 failed functions for prompt 2701
+2025-11-28 21:32:40,270 - INFO - Producer: Generated 0 failed functions for prompt 2701
+[INFO]
+2025-11-28 21:32:40,271 - INFO -
+
+
+[INFO] Prompt scores: [-69.259, -40.6529]
+
+
+2025-11-28 21:32:40,272 - INFO - Prompt scores: [-69.259, -40.6529]
+[INFO] Island id 5
+2025-11-28 21:32:40,272 - INFO - Island id 5
+[INFO]
+2025-11-28 21:32:40,273 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:32:51,603 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:32:51,605 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:32:51,608 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 2702
+2025-11-28 21:32:51,609 - INFO - Producer: Generated 8 functions for prompt 2702
+[INFO] Producer: Generated 0 failed functions for prompt 2702
+2025-11-28 21:32:51,610 - INFO - Producer: Generated 0 failed functions for prompt 2702
+[INFO]
+2025-11-28 21:32:51,612 - INFO -
+
+
+[INFO] Prompt scores: [-19.8657, -13.292]
+
+
+2025-11-28 21:32:51,612 - INFO - Prompt scores: [-19.8657, -13.292]
+[INFO] Island id 1
+2025-11-28 21:32:51,613 - INFO - Island id 1
+[INFO]
+2025-11-28 21:32:51,613 - INFO -
+
+
+[INFO] Time taken for LLM generation: 9 seconds
+
+
+2025-11-28 21:33:01,343 - INFO - Time taken for LLM generation: 9 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:01,345 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 9
+2025-11-28 21:33:01,348 - INFO - LLM generation time: 9
+[INFO] Producer: Generated 8 functions for prompt 2703
+2025-11-28 21:33:01,349 - INFO - Producer: Generated 8 functions for prompt 2703
+[INFO] Producer: Generated 0 failed functions for prompt 2703
+2025-11-28 21:33:01,350 - INFO - Producer: Generated 0 failed functions for prompt 2703
+[INFO]
+2025-11-28 21:33:01,351 - INFO -
+
+
+[INFO] Prompt scores: [-56.4997, -26.0325]
+
+
+2025-11-28 21:33:01,352 - INFO - Prompt scores: [-56.4997, -26.0325]
+[INFO] Island id 4
+2025-11-28 21:33:01,352 - INFO - Island id 4
+[INFO]
+2025-11-28 21:33:01,353 - INFO -
+
+
+[INFO] Time taken for LLM generation: 15 seconds
+
+
+2025-11-28 21:33:16,807 - INFO - Time taken for LLM generation: 15 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:16,811 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 15
+2025-11-28 21:33:16,814 - INFO - LLM generation time: 15
+[INFO] Producer: Generated 8 functions for prompt 2704
+2025-11-28 21:33:16,815 - INFO - Producer: Generated 8 functions for prompt 2704
+[INFO] Producer: Generated 0 failed functions for prompt 2704
+2025-11-28 21:33:16,816 - INFO - Producer: Generated 0 failed functions for prompt 2704
+[INFO]
+2025-11-28 21:33:16,817 - INFO -
+
+
+[INFO] Prompt scores: [-41.5376, -31.4269]
+
+
+2025-11-28 21:33:16,818 - INFO - Prompt scores: [-41.5376, -31.4269]
+[INFO] Island id 0
+2025-11-28 21:33:16,818 - INFO - Island id 0
+[INFO]
+2025-11-28 21:33:16,819 - INFO -
+
+
+[INFO] Time taken for LLM generation: 10 seconds
+
+
+2025-11-28 21:33:26,908 - INFO - Time taken for LLM generation: 10 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:26,913 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 10
+2025-11-28 21:33:26,915 - INFO - LLM generation time: 10
+[INFO] Producer: Generated 8 functions for prompt 2705
+2025-11-28 21:33:26,916 - INFO - Producer: Generated 8 functions for prompt 2705
+[INFO] Producer: Generated 0 failed functions for prompt 2705
+2025-11-28 21:33:26,917 - INFO - Producer: Generated 0 failed functions for prompt 2705
+[INFO]
+2025-11-28 21:33:26,918 - INFO -
+
+
+[INFO] Prompt scores: [-13.361, -12.6778]
+
+
+2025-11-28 21:33:26,919 - INFO - Prompt scores: [-13.361, -12.6778]
+[INFO] Island id 4
+2025-11-28 21:33:26,919 - INFO - Island id 4
+[INFO]
+2025-11-28 21:33:26,920 - INFO -
+
+
+[INFO] Time taken for LLM generation: 12 seconds
+
+
+2025-11-28 21:33:39,404 - INFO - Time taken for LLM generation: 12 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:39,406 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 12
+2025-11-28 21:33:39,409 - INFO - LLM generation time: 12
+[INFO] Producer: Generated 8 functions for prompt 2706
+2025-11-28 21:33:39,410 - INFO - Producer: Generated 8 functions for prompt 2706
+[INFO] Producer: Generated 0 failed functions for prompt 2706
+2025-11-28 21:33:39,410 - INFO - Producer: Generated 0 failed functions for prompt 2706
+[INFO]
+2025-11-28 21:33:39,413 - INFO -
+
+
+[INFO] Prompt scores: [-19.8657, -16.2207]
+
+
+2025-11-28 21:33:39,413 - INFO - Prompt scores: [-19.8657, -16.2207]
+[INFO] Island id 1
+2025-11-28 21:33:39,413 - INFO - Island id 1
+[INFO]
+2025-11-28 21:33:39,414 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:33:50,647 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:33:50,650 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:33:50,653 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 2707
+2025-11-28 21:33:50,653 - INFO - Producer: Generated 8 functions for prompt 2707
+[INFO] Producer: Generated 0 failed functions for prompt 2707
+2025-11-28 21:33:50,655 - INFO - Producer: Generated 0 failed functions for prompt 2707
+[INFO]
+2025-11-28 21:33:50,656 - INFO -
+
+
+[INFO] Prompt scores: [-9.0038, -4.6798]
+
+
+2025-11-28 21:33:50,657 - INFO - Prompt scores: [-9.0038, -4.6798]
+[INFO] Island id 4
+2025-11-28 21:33:50,657 - INFO - Island id 4
+[INFO]
+2025-11-28 21:33:50,657 - INFO -
+
+
+[INFO] Time taken for LLM generation: 11 seconds
+
+
+2025-11-28 21:34:02,006 - INFO - Time taken for LLM generation: 11 seconds
+[INFO] Number of outputs with at least one valid function definition: 8
+2025-11-28 21:34:02,008 - INFO - Number of outputs with at least one valid function definition: 8
+[INFO] LLM generation time: 11
+2025-11-28 21:34:02,011 - INFO - LLM generation time: 11
+[INFO] Producer: Generated 8 functions for prompt 2708
+2025-11-28 21:34:02,011 - INFO - Producer: Generated 8 functions for prompt 2708
+[INFO] Producer: Generated 0 failed functions for prompt 2708
+2025-11-28 21:34:02,012 - INFO - Producer: Generated 0 failed functions for prompt 2708
+[INFO]
+2025-11-28 21:34:02,014 - INFO -
+
+
+[INFO] Prompt scores: [-77.6251, -21.9642]
+
+
+2025-11-28 21:34:02,014 - INFO - Prompt scores: [-77.6251, -21.9642]
+[INFO] Island id 3
+2025-11-28 21:34:02,015 - INFO - Island id 3
+[INFO]
+2025-11-28 21:34:02,015 - INFO -
