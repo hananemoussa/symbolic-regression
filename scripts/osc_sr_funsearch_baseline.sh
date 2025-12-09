@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=funsearch_sr_BPG10
-#SBATCH --account=PAA0201
+#SBATCH --job-name=funsearch_sr_PO18
+#SBATCH --account=PAS2836
 #SBATCH --time=48:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -28,16 +28,16 @@
 # ============================================
 
 # Problem configuration - CHANGE THESE TO RUN DIFFERENT PROBLEMS
-DATASET_CATEGORY="bio_pop_growth"
-PROBLEM_NAME="BPG10"
+DATASET_CATEGORY="phys_osc"
+PROBLEM_NAME="PO18"
 
 # Model configuration
 MODEL="phi"  # Options: llama32, qwen3, etc.
 
 # Run configuration
 SEED=0
-NUM_ROUNDS=2701
-NUM_CONT_ROUNDS=100
+NUM_ROUNDS=1250
+NUM_CONT_ROUNDS=50
 
 # ============================================
 

@@ -6,9 +6,16 @@
 # CONFIGURATION - Edit these values
 #===========================================
 PREFIX="sr"                    # Experiment prefix (e.g., "sr", "bin")
-FUNSEARCH_JOB="2950253"        # FunSearch baseline job ID
-EVOTUNE_JOB="2950255"          # EvoTune DPO job ID
-DESCRIPTION="Symbolic Regression - BPG10 (phi)"
+FUNSEARCH_JOB="3030811"        # CRK16 FunSearch baseline job ID
+EVOTUNE_JOB="3030812"          # CRK16 EvoTune DPO job ID
+
+# FUNSEARCH_JOB="3030820"        # BPG15 FunSearch baseline job ID
+# EVOTUNE_JOB="3030826"          # BPG15 EvoTune DPO job ID
+
+# FUNSEARCH_JOB="3030833"        # PO18 FunSearch baseline job ID
+# EVOTUNE_JOB="3030834"          # PO18 EvoTune DPO job ID
+
+DESCRIPTION="Symbolic Regression - PO18 (Phi)"
 #===========================================
 
 echo "========================================="

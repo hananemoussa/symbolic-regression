@@ -271,6 +271,10 @@ def evaluate_func(cfg, dataset, function_class):
         X = dataset['X']
         y_true = dataset['y']
 
+        # Set fixed random seed for reproducibility
+        # This ensures functions using np.random produce consistent results
+        np.random.seed(42)
+
         # Call the generated function
         y_pred = func_from_llm(X)
 
@@ -344,6 +348,8 @@ The score is based on Normalized Mean Squared Error (NMSE):
 - Score of 0 means perfect prediction
 - More negative scores indicate worse predictions
 
+IMPORTANT: Do NOT use random numbers (np.random) or any stochastic operations. The equation must be deterministic - the same input must always produce the same output. Random weights or random sampling will result in poor solutions.
+
 You are an expert in writing Python functions."""
 
 append_prompt = """Based on the functions shown above, create a new equation() function that achieves a better (higher/less negative) score.
@@ -392,6 +398,9 @@ def evaluate_function_on_split(func_from_llm, dataset_category: str, problem_nam
         data = load_sr_data(dataset_category, problem_name, split)
         X = data['X']
         y_true = data['y']
+
+        # Set fixed random seed for reproducibility
+        np.random.seed(42)
 
         y_pred = func_from_llm(X)
         y_pred = np.asarray(y_pred, dtype=np.float64)
