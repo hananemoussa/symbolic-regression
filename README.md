@@ -8,16 +8,6 @@ This repository is a fork of the official repository corresponding to the paper:
 
 In this work, we use their method EvoTune on four symbolic regression from LLM-SRBench benchmark and analyze and discuss results. 
 
-
-## Overview
-
-**EvoTune** is a framework for discovering new algorithms by combining:
-
-1. Evolutionary search over LLM-generated Python programs, and
-2. Reinforcement Learning to fine-tune the search operator - the LLM - based on performance scores of discovered algorithms .
-
-
-
 ## Repo Structure
 
 ```plaintext
@@ -78,3 +68,4 @@ installation/
    ```bash
    sbatch scripts/run_sr_evotune.sh && sbatch scripts/run_sr_funsearch_baseline.sh
 3. During execution, logs (model outputs, per-round metrics, and program database evolution) will be written to `out/logs`.
+
