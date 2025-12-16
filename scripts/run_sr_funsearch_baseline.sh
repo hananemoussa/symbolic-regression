@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=evotune_sr_PO18
+#SBATCH --job-name=funsearch_sr_BPG15
 #SBATCH --account=PAS2836
-#SBATCH --time=72:00:00
+#SBATCH --time=48:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=12
@@ -9,15 +9,15 @@
 #SBATCH --partition=quad
 #SBATCH --mem=100G
 #SBATCH --exclusive
-#SBATCH --output=logs/evotune_sr_%j.out
-#SBATCH --error=logs/evotune_sr_%j.err
+#SBATCH --output=logs/funsearch_sr_%j.out
+#SBATCH --error=logs/funsearch_sr_%j.err
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=moussa.45@osu.edu
 
 # ============================================
-# Symbolic Regression - EvoTune (with DPO)
+# Symbolic Regression - FunSearch Baseline
 # ============================================
-# This script runs EvoTune with DPO fine-tuning on SR tasks.
+# This script runs the FunSearch baseline (no fine-tuning) on SR tasks.
 #
 # To change the problem, modify DATASET_CATEGORY and PROBLEM_NAME below.
 # Use the problem browser to find problems:
@@ -28,8 +28,8 @@
 # ============================================
 
 # Problem configuration - CHANGE THESE TO RUN DIFFERENT PROBLEMS
-DATASET_CATEGORY="phys_osc"
-PROBLEM_NAME="PO18"
+DATASET_CATEGORY="bio_pop_growth"
+PROBLEM_NAME="BPG15"
 
 # Model configuration
 MODEL="phi"  # Options: llama32, qwen3, etc.
@@ -38,13 +38,12 @@ MODEL="phi"  # Options: llama32, qwen3, etc.
 SEED=0
 NUM_ROUNDS=1250
 NUM_CONT_ROUNDS=50
-FINETUNING_FREQUENCY=200  # Fine-tune every N rounds
 
 # ============================================
 
 # Print job information
 echo "=========================================="
-echo "Symbolic Regression - EvoTune (DPO)"
+echo "Symbolic Regression - FunSearch Baseline"
 echo "=========================================="
 echo "Job started on $(date)"
 echo "Running on node: $(hostname)"
@@ -54,7 +53,6 @@ echo "Number of GPUs: $SLURM_GPUS_ON_NODE"
 echo ""
 echo "Problem: ${DATASET_CATEGORY}/${PROBLEM_NAME}"
 echo "Model: ${MODEL}"
-echo "Fine-tuning frequency: every ${FINETUNING_FREQUENCY} rounds"
 echo "=========================================="
 
 # Load necessary modules
@@ -74,7 +72,7 @@ export WANDB_API_KEY="faafa38294bc6098fd6475997f551a8de1ade862"
 mkdir -p logs out/logs
 
 # Construct prefix from problem name
-PREFIX="evotune_sr_${PROBLEM_NAME}_${MODEL}"
+PREFIX="funsearch_sr_${PROBLEM_NAME}_${MODEL}"
 
 # Run the experiment
 python src/experiments/main.py \
@@ -82,16 +80,13 @@ python src/experiments/main.py \
     task.dataset_category=${DATASET_CATEGORY} \
     task.problem_name=${PROBLEM_NAME} \
     model=${MODEL} \
-    train=dpo \
+    train=none \
     cluster=osc_ascend \
     seed=${SEED} \
     prefix=${PREFIX} \
-    gpu_nums=0 \
     num_rounds=${NUM_ROUNDS} \
     num_cont_rounds=${NUM_CONT_ROUNDS} \
-    finetuning_frequency=${FINETUNING_FREQUENCY} \
-    one_tuning=1 \
-    max_loops=1 \
+    gpu_nums=0 \
     wandb=1 \
     project=cse-6521-project \
     entity=hananenmoussa \

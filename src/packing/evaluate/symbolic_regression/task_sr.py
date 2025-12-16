@@ -38,20 +38,17 @@ from packing.evaluate.registry import TASK_REGISTRY
 # ============================================
 
 def get_data_path():
-    """Get the path to the HDF5 data file."""
-    # Try multiple possible locations
-    possible_paths = [
+    paths = [
         Path("llm-srbench-dataset/llm-srbench/lsr_bench_data.hdf5"),
         Path("../llm-srbench-dataset/llm-srbench/lsr_bench_data.hdf5"),
         Path("/fs/ess/PAA0201/hananemoussa/EvoTune/llm-srbench-dataset/llm-srbench/lsr_bench_data.hdf5"),
     ]
 
-    for path in possible_paths:
+    for path in paths:
         if path.exists():
             return path
 
-    # Default path - will raise error if not found
-    return possible_paths[0]
+    return paths[0]
 
 
 def load_sr_data(dataset_category: str, problem_name: str, split: str):
@@ -68,7 +65,6 @@ def load_sr_data(dataset_category: str, problem_name: str, split: str):
     """
     data_path = get_data_path()
 
-    # Map dataset category to HDF5 path
     if dataset_category == 'lsr_transform':
         h5_path = f'/lsr_transform/{problem_name}/{split}'
     else:
@@ -80,7 +76,6 @@ def load_sr_data(dataset_category: str, problem_name: str, split: str):
                            f"Available groups: {list(f.keys())}")
         data = f[h5_path][:].astype(np.float64)
 
-    # Column 0 is target (y), remaining columns are features (X)
     return {
         'y': data[:, 0],
         'X': data[:, 1:]
@@ -104,13 +99,10 @@ def has_ood_test(dataset_category: str, problem_name: str) -> bool:
         return h5_path in f
 
 
-# ============================================
-# 1. DEFINE INITIAL HEURISTIC
-# ============================================
 
 def get_initial_func(cfg):
     """
-    Returns the initial/baseline function to seed the evolutionary search.
+    Returns the baseline function to seed the evolutionary search.
     For symbolic regression, we start with a simple linear combination.
     """
     def equation(X: np.ndarray) -> np.ndarray:
@@ -122,18 +114,12 @@ def get_initial_func(cfg):
         Returns:
             y_pred: Predicted values array of shape (n_samples,)
         """
-        # Simple baseline: weighted sum of inputs
-        # This is a reasonable starting point for many regression problems
         n_features = X.shape[1]
         weights = np.ones(n_features) / n_features
         return np.dot(X, weights)
 
     return equation, "equation"
 
-
-# ============================================
-# 2. GENERATE INPUT DATA
-# ============================================
 
 def generate_input(cfg, set: str):
     """
@@ -164,7 +150,6 @@ def generate_input(cfg, set: str):
         return data
 
     elif set == "trainperturbedset":
-        # Map to in-distribution test set for periodic evaluation
         data = load_sr_data(category, problem, 'test')
         data['split'] = 'test'
         data['dataset_category'] = category
@@ -172,7 +157,6 @@ def generate_input(cfg, set: str):
         return data
 
     elif set == "testset":
-        # In-distribution test set for final evaluation
         data = load_sr_data(category, problem, 'test')
         data['split'] = 'test'
         data['dataset_category'] = category
@@ -182,10 +166,6 @@ def generate_input(cfg, set: str):
     else:
         raise ValueError(f"Invalid dataset set: {set}")
 
-
-# ============================================
-# 3. EVALUATE FUNCTION (with NMSE)
-# ============================================
 
 GENERAL_IMPORTS = '''
 import numpy as np
@@ -207,7 +187,6 @@ def compute_nmse(y_pred: np.ndarray, y_true: np.ndarray) -> float:
     Lower is better. NMSE=0 means perfect prediction.
     NMSE=1 means predictions are as good as predicting the mean.
     """
-    # Handle NaN/Inf values in predictions
     valid_mask = np.isfinite(y_pred)
     if np.sum(valid_mask) == 0:
         return float('inf')
@@ -215,14 +194,11 @@ def compute_nmse(y_pred: np.ndarray, y_true: np.ndarray) -> float:
     y_pred_valid = y_pred[valid_mask]
     y_true_valid = y_true[valid_mask]
 
-    # Compute MSE
     mse = np.mean((y_true_valid - y_pred_valid) ** 2)
 
-    # Compute variance of true values
     var = np.var(y_true_valid)
 
     if var == 0:
-        # If variance is 0, all true values are the same
         return float('inf') if mse > 1e-10 else 0.0
 
     return float(mse / var)
@@ -243,9 +219,7 @@ def evaluate_func(cfg, dataset, function_class):
     equation_func_str = function_class.function_str
     imports = function_class.imports_str
 
-    # Step 1: Parse and compile the function
     try:
-        # Create execution environment
         globals_dict = {}
         exec(GENERAL_IMPORTS, globals_dict)
         exec(imports, globals_dict)
@@ -266,34 +240,23 @@ def evaluate_func(cfg, dataset, function_class):
         function_class.fail_exception = tb_str
         return function_class
 
-    # Step 2: Evaluate the function on the dataset
     try:
         X = dataset['X']
         y_true = dataset['y']
-
-        # Set fixed random seed for reproducibility
-        # This ensures functions using np.random produce consistent results
         np.random.seed(42)
 
-        # Call the generated function
         y_pred = func_from_llm(X)
 
-        # Ensure output is numpy array with correct shape
         y_pred = np.asarray(y_pred, dtype=np.float64)
 
-        # Handle different output shapes
         if y_pred.ndim > 1:
             y_pred = y_pred.flatten()
 
-        # Check output length matches input
         if len(y_pred) != len(y_true):
             raise ValueError(f"Output length {len(y_pred)} doesn't match expected {len(y_true)}")
 
-        # Compute NMSE
         nmse = compute_nmse(y_pred, y_true)
 
-        # Convert to score (higher is better in EvoTune)
-        # Score = -NMSE * 100
         if nmse == float('inf') or nmse > 1e6:
             score = cfg.task.failed_score
         else:
@@ -315,9 +278,6 @@ def evaluate_func(cfg, dataset, function_class):
     return function_class
 
 
-# ============================================
-# 4. PROMPTS AND REGISTRATION
-# ============================================
 
 system_prompt = """You are an expert mathematician and scientist specializing in discovering mathematical equations from data.
 Your goal is to find a mathematical function that accurately predicts the output variable y from the input features X.
@@ -368,7 +328,7 @@ IMPORTANT:
 - Make sure to return an array of the same length as the input X"""
 
 TASK_REGISTRY.register(
-    "sr",  # Task name used in command line
+    "sr",  
     generate_input=generate_input,
     evaluate_func=evaluate_func,
     get_initial_func=get_initial_func,
@@ -377,9 +337,6 @@ TASK_REGISTRY.register(
 )
 
 
-# ============================================
-# 5. FINAL EVALUATION UTILITIES
-# ============================================
 
 def evaluate_function_on_split(func_from_llm, dataset_category: str, problem_name: str, split: str) -> dict:
     """
@@ -399,7 +356,6 @@ def evaluate_function_on_split(func_from_llm, dataset_category: str, problem_nam
         X = data['X']
         y_true = data['y']
 
-        # Set fixed random seed for reproducibility
         np.random.seed(42)
 
         y_pred = func_from_llm(X)
@@ -458,7 +414,6 @@ def evaluate_best_program_all_splits(cfg, function_str: str, imports_str: str = 
     problem = cfg.problem_name if hasattr(cfg, 'problem_name') else cfg.task.problem_name
     func_to_extract = cfg.function_str_to_extract if hasattr(cfg, 'function_str_to_extract') else cfg.task.function_str_to_extract
 
-    # Compile the function
     try:
         globals_dict = {}
         exec(GENERAL_IMPORTS, globals_dict)
@@ -490,13 +445,10 @@ def evaluate_best_program_all_splits(cfg, function_str: str, imports_str: str = 
         'compilation_error': False
     }
 
-    # Evaluate on train
     results['train'] = evaluate_function_on_split(func_from_llm, category, problem, 'train')
 
-    # Evaluate on test (in-distribution)
     results['test'] = evaluate_function_on_split(func_from_llm, category, problem, 'test')
 
-    # Evaluate on OOD test if available
     if has_ood_test(category, problem):
         results['ood_test'] = evaluate_function_on_split(func_from_llm, category, problem, 'ood_test')
     else:
@@ -526,14 +478,11 @@ def save_final_sr_metrics(cfg, best_function_str: str, imports_str: str, logs_di
     results['function_str'] = best_function_str
     results['imports_str'] = imports_str
 
-    # Create metrics directory if needed
     metrics_dir = os.path.join(logs_dir, 'metrics')
     os.makedirs(metrics_dir, exist_ok=True)
 
-    # Save to JSON file
     metrics_file = os.path.join(metrics_dir, 'final_sr_metrics.json')
 
-    # Convert any numpy types to Python types for JSON serialization
     def convert_to_serializable(obj):
         if isinstance(obj, np.floating):
             return float(obj)
@@ -554,7 +503,6 @@ def save_final_sr_metrics(cfg, best_function_str: str, imports_str: str, logs_di
 
     logging.info(f"Final SR metrics saved to {metrics_file}")
 
-    # Log summary
     logging.info("=" * 50)
     logging.info("FINAL SYMBOLIC REGRESSION METRICS")
     logging.info("=" * 50)
@@ -583,16 +531,12 @@ def save_final_sr_metrics(cfg, best_function_str: str, imports_str: str, logs_di
     return results
 
 
-# ============================================
-# TESTING (when run directly)
-# ============================================
 
 if __name__ == "__main__":
     from omegaconf import OmegaConf
     from packing.logging.function_class import FunctionClass
     from packing.utils.functions import function_to_string
 
-    # Create test config
     cfg = OmegaConf.create({
         "dataset_category": "bio_pop_growth",
         "problem_name": "BPG0",
@@ -602,9 +546,8 @@ if __name__ == "__main__":
         }
     })
 
-    print("=== Testing Symbolic Regression Task ===")
+    print("Testing Symbolic Regression Task")
 
-    # Test data loading
     print("\n1. Testing data loading...")
     try:
         train_data = generate_input(cfg, "train")
@@ -616,12 +559,10 @@ if __name__ == "__main__":
         print(f"   Error loading data: {e}")
         print("   Make sure the HDF5 file path is correct")
 
-    # Test initial function
     print("\n2. Testing initial function...")
     initial_func, func_name = get_initial_func(cfg)
     print(f"   Function name: {func_name}")
 
-    # Test evaluation
     print("\n3. Testing evaluation...")
 
     def equation(X: np.ndarray) -> np.ndarray:
