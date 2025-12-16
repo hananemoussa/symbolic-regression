@@ -1,6 +1,6 @@
 # Evolutionary Search with Reinforcement Learning for Data-driven Discovery
 
-This repository is a fork of the official repository corresponding to the paper: 
+This reporsitory hosts the code for Hanane Moussa's CSE6521 class project at the Ohio State University. It is a fork of the official repository corresponding to the paper: 
 
 > **Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning**  
 > Anja Surina, Amin Mansouri, Lars Quaedvlieg, Amal Seddas, Maryna Viazovska, Emmanuel Abbe, Caglar Gulcehre
@@ -68,4 +68,5 @@ installation/
    ```bash
    sbatch scripts/run_sr_evotune.sh && sbatch scripts/run_sr_funsearch_baseline.sh
 3. During execution, logs (model outputs, per-round metrics, and program database evolution) will be written to `out/logs`.
+
 
